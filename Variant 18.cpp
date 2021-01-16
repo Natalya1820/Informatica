@@ -13,7 +13,7 @@ int main() {
     string path;
     cin >> path;
 
-    ifstream fin; // ifstream - чтение, а ofstream - запись
+    ifstream fin; // ifstream - чтение,  а ofstream - запись
     fin.open(path); // файл открывается в директории проекта
 
     if (!fin.is_open()) // проверяем - удалось ли открыть файл
